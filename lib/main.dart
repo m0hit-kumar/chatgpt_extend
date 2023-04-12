@@ -1,3 +1,4 @@
+import 'package:chatgpt_extend/components/card_container.dart';
 import 'package:chatgpt_extend/utility.dart';
 import 'package:flutter/material.dart';
 
@@ -31,6 +32,10 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Column(
       children: [
+        NeonContainer(
+          onPressed: () {},
+          text: 'write a email addresss',
+        ),
         Text(output),
         ElevatedButton(
             onPressed: () async {
